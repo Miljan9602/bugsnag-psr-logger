@@ -10,9 +10,15 @@
         "email": "notifiers@bugsnag.com",
         "homepage": "https://bugsnag.com"
     }],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/bugsnag/bugsnag-php"
+        }
+    ],
     "require": {
         "php": ">=5.5",
-        "bugsnag/bugsnag": "^3.10",
+        "bugsnag/bugsnag": "dev-aost/base-changes",
         "psr/log": "^1.0"
     },
     "require-dev": {
