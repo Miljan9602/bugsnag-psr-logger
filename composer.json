@@ -1,5 +1,5 @@
 {
-    "name": "bugsnag/bugsnag-psr-logger",
+    "name": "miljan9602/bugsnag-psr-logger",
     "type": "library",
     "description": "Official Bugsnag PHP PSR Logger.",
     "keywords": ["bugsnag", "exceptions", "errors", "logging", "tracking", "psr"],
@@ -12,8 +12,8 @@
     }],
     "require": {
         "php": ">=5.5",
-        "bugsnag/bugsnag": "^3.10",
-        "psr/log": "^1.0"
+        "psr/log": "^1.0",
+        "miljan9602/bugsnag": "^3.20"
     },
     "require-dev": {
         "graham-campbell/testbench-core": "^1.1",
